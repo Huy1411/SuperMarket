@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\bin\SuperMarketService.dll.config
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\bin\SuperMarketService.dll
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\bin\SuperMarketService.pdb
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\obj\Debug\SuperMarketService.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\obj\Debug\SuperMarketService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\obj\Debug\SuperMarketService.dll
+C:\Users\Admin\source\repos\SuperMarketService\SuperMarketService\obj\Debug\SuperMarketService.pdb

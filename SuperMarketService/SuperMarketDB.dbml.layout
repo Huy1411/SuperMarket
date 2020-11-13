@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 13" name="SuperMarketDB">
+  <DataContextMoniker Name="/SuperMarketDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e4b396cd-d44d-4193-986d-da82e6ea17da" absoluteBounds="0.75, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7f8312a-6242-4114-a34e-ca6a0eacb355" absoluteBounds="0.765, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b005cc00-d71d-4eae-b885-1e6149bdc638" absoluteBounds="3.75, 5.25, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f0372dd-e6cb-449b-8013-7a6c4428c5fe" absoluteBounds="3.765, 5.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc8f6035-a13e-4234-b040-4d252989f771" absoluteBounds="0.75, 8.25, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2586b7ae-8b82-4ed9-8647-7d3a12e3c939" absoluteBounds="0.765, 8.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2a8469b-7a91-412c-b719-25f944ae1239" absoluteBounds="6.5, 4.875, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e36ba6fd-844a-426d-bd06-ebeac98dcecf" absoluteBounds="6.515, 5.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca269087-5a87-4f6c-ba53-63a8005c972b" absoluteBounds="3.5, 8, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ff2d3e0-410e-46f8-b021-f86dcfb990fa" absoluteBounds="3.515, 8.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc59ef8e-f10b-4948-ae39-70eee9b48ca8" absoluteBounds="6.25, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/OrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59b93acd-57dc-4ffc-b566-f6eed749cecd" absoluteBounds="6.265, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bce354a8-82fc-4015-89a0-edf1c024d177" absoluteBounds="3.5, 11.375, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6eb5c17-81d9-4268-a30f-d0cede4b1dc1" absoluteBounds="3.515, 11.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3866b2c8-4bf0-48a8-a50b-fc6f9720dfd0" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b578af53-55dd-478e-88c8-ea70225d1692" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f35f49dc-1e7d-4c31-ac6c-2f27ce170767" absoluteBounds="0.75, 5.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SuperMarketDBDataContext/Provider" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8ed81ab-157c-4692-9d0a-ace9149ce21b" absoluteBounds="0.765, 5.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 5.84699625651042); (6.26041666666667 : 5.84699625651042 : JumpStart); (6.42708333333333 : 5.84699625651042 : JumpEnd); (6.5 : 5.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Role/Role_Employee" />
+      <nodes>
+        <classShapeMoniker Id="b005cc00-d71d-4eae-b885-1e6149bdc638" />
+        <classShapeMoniker Id="d2a8469b-7a91-412c-b719-25f944ae1239" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.13544840494792); (3.5 : 9.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Customer/Customer_Order" />
+      <nodes>
+        <classShapeMoniker Id="fc8f6035-a13e-4234-b040-4d252989f771" />
+        <classShapeMoniker Id="ca269087-5a87-4f6c-ba53-63a8005c972b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.07774983723958); (6.34375 : 9.07774983723958); (6.34375 : 2.7612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Order/Order_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="ca269087-5a87-4f6c-ba53-63a8005c972b" />
+        <classShapeMoniker Id="cc59ef8e-f10b-4948-ae39-70eee9b48ca8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 10.0208968098958); (1.75 : 12.0681469726562); (3.5 : 12.0681469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Customer/Customer_Payment" />
+      <nodes>
+        <classShapeMoniker Id="fc8f6035-a13e-4234-b040-4d252989f771" />
+        <classShapeMoniker Id="bce354a8-82fc-4015-89a0-edf1c024d177" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.06814697265625); (6.25 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Product/Product_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="3866b2c8-4bf0-48a8-a50b-fc6f9720dfd0" />
+        <classShapeMoniker Id="cc59ef8e-f10b-4948-ae39-70eee9b48ca8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.06814697265625); (3.5 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="e4b396cd-d44d-4193-986d-da82e6ea17da" />
+        <classShapeMoniker Id="3866b2c8-4bf0-48a8-a50b-fc6f9720dfd0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.7300439453125); (3.59375 : 6.7300439453125); (3.59375 : 3.34780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SuperMarketDBDataContext/Provider/Provider_Product" />
+      <nodes>
+        <classShapeMoniker Id="f35f49dc-1e7d-4c31-ac6c-2f27ce170767" />
+        <classShapeMoniker Id="3866b2c8-4bf0-48a8-a50b-fc6f9720dfd0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
